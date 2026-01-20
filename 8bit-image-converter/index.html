@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Bit 图像转换器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ 8-Bit 图像转换器</h1>
+        <p>上传您的图片，将其转换为复古的 8-bit 风格！</p>
+        
+        <div class="upload-area">
+            <input type="file" id="imageLoader" accept="image/*">
+            <label for="imageLoader" class="upload-label">
+                <span>点击或拖拽图片到这里</span>
+            </label>
+        </div>
+
+        <div class="canvas-container">
+            <div class="canvas-wrapper">
+                <h3>原始图片</h3>
+                <canvas id="originalCanvas"></canvas>
+            </div>
+            <div class="canvas-wrapper">
+                <h3>8-Bit 效果</h3>
+                <canvas id="resultCanvas"></canvas>
+            </div>
+        </div>
+
+        <div class="controls">
+             <label for="colorResolution">色彩数量 (2-256):</label>
+             <input type="range" id="colorResolution" min="2" max="256" value="64">
+             <span id="colorValue">64</span>
+        </div>
+        <div class="controls">
+             <label for="pixelSize">像素大小 (2-32):</label>
+             <input type="range" id="pixelSize" min="2" max="32" value="12">
+             <span id="pixelValue">12</span>
+        </div>
+        
+        <a id="downloadBtn" class="button" style="display: none;">下载图片</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -22,9 +22,9 @@
 ## 🛠️ 我的装备库 (Toolbox)
 
 * **Brain:** Human Intuition + System Design
-* **Copilots:** Cursor, GitHub Copilot, Windsurf
-* **Intelligence:** GPT-4o, Claude 3.5 Sonnet, Gemini 2.5 Pro
-* **Execution:** TypeScript, Python, Next.js, Docker
+* **Copilots:** Cursor, GitHub Copilot, Windsurf, gemini-cli, claude code.
+* **Intelligence:** GPT-4o, Claude, Gemini, glm
+* **Execution:** TypeScript, Python, Next.js, Docker and so on.
 
 ## 🧠 实验心得 (Lessons Learned)
 

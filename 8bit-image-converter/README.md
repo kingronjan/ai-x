@@ -15,7 +15,7 @@
 1.  **克隆或下载项目：**
     如果您从 Git 仓库获取此项目，请克隆它：
     ```bash
-    git clone [repository-url]
+    git clone https://github.com/kingronjan/ai-x.git
     cd 8bit-image-converter
     ```
     如果您是直接下载文件，请确保 `index.html`、`style.css` 和 `script.js` 文件都在同一个 `8bit-image-converter` 文件夹中。
